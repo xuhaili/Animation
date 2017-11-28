@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE70F0FB1FCBDCBF00BD8C6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F0FA1FCBDCBF00BD8C6B /* AppDelegate.m */; };
+		EE70F0FE1FCBDCBF00BD8C6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F0FD1FCBDCBF00BD8C6B /* ViewController.m */; };
+		EE70F1011FCBDCBF00BD8C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE70F0FF1FCBDCBF00BD8C6B /* Main.storyboard */; };
+		EE70F1031FCBDCBF00BD8C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE70F1021FCBDCBF00BD8C6B /* Assets.xcassets */; };
+		EE70F1061FCBDCBF00BD8C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE70F1041FCBDCBF00BD8C6B /* LaunchScreen.storyboard */; };
+		EE70F1091FCBDCBF00BD8C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F1081FCBDCBF00BD8C6B /* main.m */; };
+		EE70F1131FCBDCBF00BD8C6B /* HollyAnimationProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F1121FCBDCBF00BD8C6B /* HollyAnimationProjectTests.m */; };
+		EE70F11E1FCBDCBF00BD8C6B /* HollyAnimationProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F11D1FCBDCBF00BD8C6B /* HollyAnimationProjectUITests.m */; };
+		EE70F12F1FCC16ED00BD8C6B /* AnimationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F12E1FCC16ED00BD8C6B /* AnimationListViewController.m */; };
+		EE70F1351FCCF3DE00BD8C6B /* HLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F1341FCCF3DE00BD8C6B /* HLBaseViewController.m */; };
+		EE70F1381FCCF49200BD8C6B /* HLTitleBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F1371FCCF49200BD8C6B /* HLTitleBtn.m */; };
+		EE70F13B1FCCF52400BD8C6B /* HLUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F13A1FCCF52400BD8C6B /* HLUIViewVC.m */; };
+		EE70F13E1FCD068200BD8C6B /* HLLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F13D1FCD068200BD8C6B /* HLLayerVC.m */; };
+		EE70F1421FCD0D9600BD8C6B /* HLAffineTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F1401FCD0B9000BD8C6B /* HLAffineTransformController.m */; };
+		EE70F1451FCD316100BD8C6B /* HLAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F1441FCD316100BD8C6B /* HLAnimationsViewController.m */; };
+		EE70F1481FCD397300BD8C6B /* HLReplicatorLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F1471FCD397300BD8C6B /* HLReplicatorLayerViewController.m */; };
+		EE70F14B1FCD3E4100BD8C6B /* WHAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70F14A1FCD3E4100BD8C6B /* WHAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE70F10F1FCBDCBF00BD8C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE70F0EE1FCBDCBF00BD8C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE70F0F51FCBDCBF00BD8C6B;
+			remoteInfo = HollyAnimationProject;
+		};
+		EE70F11A1FCBDCBF00BD8C6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE70F0EE1FCBDCBF00BD8C6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE70F0F51FCBDCBF00BD8C6B;
+			remoteInfo = HollyAnimationProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE70F0F61FCBDCBF00BD8C6B /* HollyAnimationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HollyAnimationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE70F0F91FCBDCBF00BD8C6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE70F0FA1FCBDCBF00BD8C6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE70F0FC1FCBDCBF00BD8C6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE70F0FD1FCBDCBF00BD8C6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE70F1001FCBDCBF00BD8C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE70F1021FCBDCBF00BD8C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE70F1051FCBDCBF00BD8C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE70F1071FCBDCBF00BD8C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE70F1081FCBDCBF00BD8C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE70F10E1FCBDCBF00BD8C6B /* HollyAnimationProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollyAnimationProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE70F1121FCBDCBF00BD8C6B /* HollyAnimationProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HollyAnimationProjectTests.m; sourceTree = "<group>"; };
+		EE70F1141FCBDCBF00BD8C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE70F1191FCBDCBF00BD8C6B /* HollyAnimationProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollyAnimationProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE70F11D1FCBDCBF00BD8C6B /* HollyAnimationProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HollyAnimationProjectUITests.m; sourceTree = "<group>"; };
+		EE70F11F1FCBDCBF00BD8C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE70F12C1FCBF27A00BD8C6B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EE70F12D1FCC16ED00BD8C6B /* AnimationListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationListViewController.h; sourceTree = "<group>"; };
+		EE70F12E1FCC16ED00BD8C6B /* AnimationListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationListViewController.m; sourceTree = "<group>"; };
+		EE70F1331FCCF3DE00BD8C6B /* HLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLBaseViewController.h; sourceTree = "<group>"; };
+		EE70F1341FCCF3DE00BD8C6B /* HLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLBaseViewController.m; sourceTree = "<group>"; };
+		EE70F1361FCCF49200BD8C6B /* HLTitleBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLTitleBtn.h; sourceTree = "<group>"; };
+		EE70F1371FCCF49200BD8C6B /* HLTitleBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLTitleBtn.m; sourceTree = "<group>"; };
+		EE70F1391FCCF52400BD8C6B /* HLUIViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLUIViewVC.h; sourceTree = "<group>"; };
+		EE70F13A1FCCF52400BD8C6B /* HLUIViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLUIViewVC.m; sourceTree = "<group>"; };
+		EE70F13C1FCD068200BD8C6B /* HLLayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLLayerVC.h; sourceTree = "<group>"; };
+		EE70F13D1FCD068200BD8C6B /* HLLayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLLayerVC.m; sourceTree = "<group>"; };
+		EE70F13F1FCD0B9000BD8C6B /* HLAffineTransformController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLAffineTransformController.h; sourceTree = "<group>"; };
+		EE70F1401FCD0B9000BD8C6B /* HLAffineTransformController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAffineTransformController.m; sourceTree = "<group>"; };
+		EE70F1431FCD316100BD8C6B /* HLAnimationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLAnimationsViewController.h; sourceTree = "<group>"; };
+		EE70F1441FCD316100BD8C6B /* HLAnimationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAnimationsViewController.m; sourceTree = "<group>"; };
+		EE70F1461FCD397300BD8C6B /* HLReplicatorLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLReplicatorLayerViewController.h; sourceTree = "<group>"; };
+		EE70F1471FCD397300BD8C6B /* HLReplicatorLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLReplicatorLayerViewController.m; sourceTree = "<group>"; };
+		EE70F1491FCD3E4100BD8C6B /* WHAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHAnimation.h; sourceTree = "<group>"; };
+		EE70F14A1FCD3E4100BD8C6B /* WHAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE70F0F31FCBDCBF00BD8C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70F10B1FCBDCBF00BD8C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70F1161FCBDCBF00BD8C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE70F0ED1FCBDCBF00BD8C6B = {
+			isa = PBXGroup;
+			children = (
+				EE70F0F81FCBDCBF00BD8C6B /* HollyAnimationProject */,
+				EE70F1111FCBDCBF00BD8C6B /* HollyAnimationProjectTests */,
+				EE70F11C1FCBDCBF00BD8C6B /* HollyAnimationProjectUITests */,
+				EE70F0F71FCBDCBF00BD8C6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE70F0F71FCBDCBF00BD8C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE70F0F61FCBDCBF00BD8C6B /* HollyAnimationProject.app */,
+				EE70F10E1FCBDCBF00BD8C6B /* HollyAnimationProjectTests.xctest */,
+				EE70F1191FCBDCBF00BD8C6B /* HollyAnimationProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE70F0F81FCBDCBF00BD8C6B /* HollyAnimationProject */ = {
+			isa = PBXGroup;
+			children = (
+				EE70F0F91FCBDCBF00BD8C6B /* AppDelegate.h */,
+				EE70F0FA1FCBDCBF00BD8C6B /* AppDelegate.m */,
+				EE70F0FC1FCBDCBF00BD8C6B /* ViewController.h */,
+				EE70F0FD1FCBDCBF00BD8C6B /* ViewController.m */,
+				EE70F12D1FCC16ED00BD8C6B /* AnimationListViewController.h */,
+				EE70F12E1FCC16ED00BD8C6B /* AnimationListViewController.m */,
+				EE70F1391FCCF52400BD8C6B /* HLUIViewVC.h */,
+				EE70F13A1FCCF52400BD8C6B /* HLUIViewVC.m */,
+				EE70F13C1FCD068200BD8C6B /* HLLayerVC.h */,
+				EE70F13D1FCD068200BD8C6B /* HLLayerVC.m */,
+				EE70F1461FCD397300BD8C6B /* HLReplicatorLayerViewController.h */,
+				EE70F1471FCD397300BD8C6B /* HLReplicatorLayerViewController.m */,
+				EE70F1491FCD3E4100BD8C6B /* WHAnimation.h */,
+				EE70F14A1FCD3E4100BD8C6B /* WHAnimation.m */,
+				EE70F1431FCD316100BD8C6B /* HLAnimationsViewController.h */,
+				EE70F1441FCD316100BD8C6B /* HLAnimationsViewController.m */,
+				EE70F13F1FCD0B9000BD8C6B /* HLAffineTransformController.h */,
+				EE70F1401FCD0B9000BD8C6B /* HLAffineTransformController.m */,
+				EE70F1331FCCF3DE00BD8C6B /* HLBaseViewController.h */,
+				EE70F1341FCCF3DE00BD8C6B /* HLBaseViewController.m */,
+				EE70F1361FCCF49200BD8C6B /* HLTitleBtn.h */,
+				EE70F1371FCCF49200BD8C6B /* HLTitleBtn.m */,
+				EE70F0FF1FCBDCBF00BD8C6B /* Main.storyboard */,
+				EE70F1021FCBDCBF00BD8C6B /* Assets.xcassets */,
+				EE70F1041FCBDCBF00BD8C6B /* LaunchScreen.storyboard */,
+				EE70F1071FCBDCBF00BD8C6B /* Info.plist */,
+				EE70F1081FCBDCBF00BD8C6B /* main.m */,
+				EE70F12C1FCBF27A00BD8C6B /* PrefixHeader.pch */,
+			);
+			path = HollyAnimationProject;
+			sourceTree = "<group>";
+		};
+		EE70F1111FCBDCBF00BD8C6B /* HollyAnimationProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE70F1121FCBDCBF00BD8C6B /* HollyAnimationProjectTests.m */,
+				EE70F1141FCBDCBF00BD8C6B /* Info.plist */,
+			);
+			path = HollyAnimationProjectTests;
+			sourceTree = "<group>";
+		};
+		EE70F11C1FCBDCBF00BD8C6B /* HollyAnimationProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE70F11D1FCBDCBF00BD8C6B /* HollyAnimationProjectUITests.m */,
+				EE70F11F1FCBDCBF00BD8C6B /* Info.plist */,
+			);
+			path = HollyAnimationProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE70F0F51FCBDCBF00BD8C6B /* HollyAnimationProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE70F1221FCBDCBF00BD8C6B /* Build configuration list for PBXNativeTarget "HollyAnimationProject" */;
+			buildPhases = (
+				EE70F0F21FCBDCBF00BD8C6B /* Sources */,
+				EE70F0F31FCBDCBF00BD8C6B /* Frameworks */,
+				EE70F0F41FCBDCBF00BD8C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HollyAnimationProject;
+			productName = HollyAnimationProject;
+			productReference = EE70F0F61FCBDCBF00BD8C6B /* HollyAnimationProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE70F10D1FCBDCBF00BD8C6B /* HollyAnimationProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE70F1251FCBDCBF00BD8C6B /* Build configuration list for PBXNativeTarget "HollyAnimationProjectTests" */;
+			buildPhases = (
+				EE70F10A1FCBDCBF00BD8C6B /* Sources */,
+				EE70F10B1FCBDCBF00BD8C6B /* Frameworks */,
+				EE70F10C1FCBDCBF00BD8C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE70F1101FCBDCBF00BD8C6B /* PBXTargetDependency */,
+			);
+			name = HollyAnimationProjectTests;
+			productName = HollyAnimationProjectTests;
+			productReference = EE70F10E1FCBDCBF00BD8C6B /* HollyAnimationProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE70F1181FCBDCBF00BD8C6B /* HollyAnimationProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE70F1281FCBDCBF00BD8C6B /* Build configuration list for PBXNativeTarget "HollyAnimationProjectUITests" */;
+			buildPhases = (
+				EE70F1151FCBDCBF00BD8C6B /* Sources */,
+				EE70F1161FCBDCBF00BD8C6B /* Frameworks */,
+				EE70F1171FCBDCBF00BD8C6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE70F11B1FCBDCBF00BD8C6B /* PBXTargetDependency */,
+			);
+			name = HollyAnimationProjectUITests;
+			productName = HollyAnimationProjectUITests;
+			productReference = EE70F1191FCBDCBF00BD8C6B /* HollyAnimationProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE70F0EE1FCBDCBF00BD8C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Holly;
+				TargetAttributes = {
+					EE70F0F51FCBDCBF00BD8C6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EE70F10D1FCBDCBF00BD8C6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE70F0F51FCBDCBF00BD8C6B;
+					};
+					EE70F1181FCBDCBF00BD8C6B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE70F0F51FCBDCBF00BD8C6B;
+					};
+				};
+			};
+			buildConfigurationList = EE70F0F11FCBDCBF00BD8C6B /* Build configuration list for PBXProject "HollyAnimationProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE70F0ED1FCBDCBF00BD8C6B;
+			productRefGroup = EE70F0F71FCBDCBF00BD8C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE70F0F51FCBDCBF00BD8C6B /* HollyAnimationProject */,
+				EE70F10D1FCBDCBF00BD8C6B /* HollyAnimationProjectTests */,
+				EE70F1181FCBDCBF00BD8C6B /* HollyAnimationProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE70F0F41FCBDCBF00BD8C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE70F1061FCBDCBF00BD8C6B /* LaunchScreen.storyboard in Resources */,
+				EE70F1031FCBDCBF00BD8C6B /* Assets.xcassets in Resources */,
+				EE70F1011FCBDCBF00BD8C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70F10C1FCBDCBF00BD8C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70F1171FCBDCBF00BD8C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE70F0F21FCBDCBF00BD8C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE70F1421FCD0D9600BD8C6B /* HLAffineTransformController.m in Sources */,
+				EE70F13E1FCD068200BD8C6B /* HLLayerVC.m in Sources */,
+				EE70F0FE1FCBDCBF00BD8C6B /* ViewController.m in Sources */,
+				EE70F14B1FCD3E4100BD8C6B /* WHAnimation.m in Sources */,
+				EE70F1351FCCF3DE00BD8C6B /* HLBaseViewController.m in Sources */,
+				EE70F1381FCCF49200BD8C6B /* HLTitleBtn.m in Sources */,
+				EE70F1091FCBDCBF00BD8C6B /* main.m in Sources */,
+				EE70F13B1FCCF52400BD8C6B /* HLUIViewVC.m in Sources */,
+				EE70F1481FCD397300BD8C6B /* HLReplicatorLayerViewController.m in Sources */,
+				EE70F1451FCD316100BD8C6B /* HLAnimationsViewController.m in Sources */,
+				EE70F0FB1FCBDCBF00BD8C6B /* AppDelegate.m in Sources */,
+				EE70F12F1FCC16ED00BD8C6B /* AnimationListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70F10A1FCBDCBF00BD8C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE70F1131FCBDCBF00BD8C6B /* HollyAnimationProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE70F1151FCBDCBF00BD8C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE70F11E1FCBDCBF00BD8C6B /* HollyAnimationProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE70F1101FCBDCBF00BD8C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE70F0F51FCBDCBF00BD8C6B /* HollyAnimationProject */;
+			targetProxy = EE70F10F1FCBDCBF00BD8C6B /* PBXContainerItemProxy */;
+		};
+		EE70F11B1FCBDCBF00BD8C6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE70F0F51FCBDCBF00BD8C6B /* HollyAnimationProject */;
+			targetProxy = EE70F11A1FCBDCBF00BD8C6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE70F0FF1FCBDCBF00BD8C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE70F1001FCBDCBF00BD8C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE70F1041FCBDCBF00BD8C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE70F1051FCBDCBF00BD8C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE70F1201FCBDCBF00BD8C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE70F1211FCBDCBF00BD8C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE70F1231FCBDCBF00BD8C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RAUNQ6K9F;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HollyAnimationProject/PrefixHeader.pch";
+				INFOPLIST_FILE = HollyAnimationProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Goldian.HollyAnimationProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE70F1241FCBDCBF00BD8C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RAUNQ6K9F;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HollyAnimationProject/PrefixHeader.pch";
+				INFOPLIST_FILE = HollyAnimationProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Goldian.HollyAnimationProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE70F1261FCBDCBF00BD8C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RAUNQ6K9F;
+				INFOPLIST_FILE = HollyAnimationProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Goldian.HollyAnimationProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HollyAnimationProject.app/HollyAnimationProject";
+			};
+			name = Debug;
+		};
+		EE70F1271FCBDCBF00BD8C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RAUNQ6K9F;
+				INFOPLIST_FILE = HollyAnimationProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Goldian.HollyAnimationProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HollyAnimationProject.app/HollyAnimationProject";
+			};
+			name = Release;
+		};
+		EE70F1291FCBDCBF00BD8C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RAUNQ6K9F;
+				INFOPLIST_FILE = HollyAnimationProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Goldian.HollyAnimationProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HollyAnimationProject;
+			};
+			name = Debug;
+		};
+		EE70F12A1FCBDCBF00BD8C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RAUNQ6K9F;
+				INFOPLIST_FILE = HollyAnimationProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Goldian.HollyAnimationProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HollyAnimationProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE70F0F11FCBDCBF00BD8C6B /* Build configuration list for PBXProject "HollyAnimationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE70F1201FCBDCBF00BD8C6B /* Debug */,
+				EE70F1211FCBDCBF00BD8C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE70F1221FCBDCBF00BD8C6B /* Build configuration list for PBXNativeTarget "HollyAnimationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE70F1231FCBDCBF00BD8C6B /* Debug */,
+				EE70F1241FCBDCBF00BD8C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE70F1251FCBDCBF00BD8C6B /* Build configuration list for PBXNativeTarget "HollyAnimationProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE70F1261FCBDCBF00BD8C6B /* Debug */,
+				EE70F1271FCBDCBF00BD8C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE70F1281FCBDCBF00BD8C6B /* Build configuration list for PBXNativeTarget "HollyAnimationProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE70F1291FCBDCBF00BD8C6B /* Debug */,
+				EE70F12A1FCBDCBF00BD8C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE70F0EE1FCBDCBF00BD8C6B /* Project object */;
+}
