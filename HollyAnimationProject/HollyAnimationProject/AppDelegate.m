@@ -21,6 +21,8 @@
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
+    
+//    主线
     return YES;
 }
 
